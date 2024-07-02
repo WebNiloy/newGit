@@ -13,4 +13,11 @@ function oddNumberSum(numbers){
     }
     return {oddNumbers,sum}
 }
-console.log(oddNumberSum(numbers));
+// console.log(oddNumberSum(numbers));
+
+// === some array operation
+const items = ['bottle', 'mug', 'paper', 'pen'];
+console.log(items.indexOf("mug"));
+console.log(items.push("laptop","iphone"));
+console.log(items);
+console.log(items.pop());
