@@ -42,3 +42,13 @@ switch (color) {
         console.log("color is black");
         break;
 }
+
+// ==== get object properties using destructing
+const computer = {
+    price: 29000,
+    storage: '256gb',
+    computerColor: 'silver',
+    processor: 'intel i5',
+}
+const {price, computerColor, storage} = computer
+console.log(price, computerColor, storage);
