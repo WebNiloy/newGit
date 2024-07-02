@@ -50,5 +50,6 @@ const computer = {
     computerColor: 'silver',
     processor: 'intel i5',
 }
-const {price, computerColor, storage} = computer
+let {price, computerColor, storage} = computer
+price = 12;
 console.log(price, computerColor, storage);
